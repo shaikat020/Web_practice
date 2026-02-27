@@ -30,7 +30,6 @@ Structure:
 - Value: The setting for that property
 - Semicolon: Required to end each declaration
 
-In our code: #about is the selector, color is a property, red is the value.
 
 
 3. SELECTORS
@@ -42,7 +41,7 @@ b) Class Selector: .classname { } - Targets elements with class="classname"
 c) ID Selector: #idname { } - Targets element with id="idname"
 d) Universal Selector: * { } - Targets all elements
 
-Our Code Uses: #about (ID Selector) - Targets the single element with id="about"
+
 
 
 4. INTERNAL AND INLINE CSS
@@ -52,7 +51,7 @@ b) Internal CSS: <style> tag in HTML head
 c) Inline CSS: style attribute on HTML element
    Example: <div style="color: red;">Text</div>
 
-Our File: Uses Internal CSS (separate .css stylesheet)
+
 
 
 5. COMMENTS IN CSS
@@ -81,9 +80,6 @@ b) Hex Values: #FF0000 (red), #00FF00 (green)
 c) RGB Values: rgb(255, 0, 0) (red)
 d) HSL Values: hsl(0, 100%, 50%) (red)
 
-Our Code:
-- color: red; (text/font color)
-- border: 15px solid green; (border color is green)
 
 
 8. BACKGROUND (color, image, repeat)
@@ -93,9 +89,7 @@ b) Background Image: background-image: url('image.jpg');
 c) Background Repeat: background-repeat: repeat | no-repeat | repeat-x | repeat-y;
 d) Background Position: background-position: center;
 e) Shorthand: background: url('img.jpg') center no-repeat;
-
-Note: Our code doesn't use background properties, but the #about element has a default white/transparent background.
-
+\
 
 9. BORDER
 ---------
@@ -107,37 +101,21 @@ c) Border Color: border-color: green;
 d) Shorthand: border: 15px solid green;
 e) Border Radius: border-radius: 50px; (rounds corners)
 
-Our Code:
-border: 15px solid green; - 15px thick, solid line, green color
-border-radius: 50px; - Creates rounded corners with 50px radius
+
 
 
 10. MARGIN
 ----------
 Margin: Space OUTSIDE the border (external spacing)
 
-Syntax:
-- margin: 50px; (all sides equal)
-- margin: 20px 30px; (top/bottom 20px, left/right 30px)
-- margin: 10px 15px 20px 25px; (top, right, bottom, left)
-- margin-top, margin-right, margin-bottom, margin-left: Individual control
-
-Our Code:
-margin: 50px; - 50px space on all sides of the border
-
 
 11. PADDING
 -----------
 Padding: Space INSIDE the border (internal spacing around content)
 
-Syntax:
-- padding: 20px; (all sides equal)
-- padding: 10px 20px; (top/bottom 10px, left/right 20px)
-- padding: 10px 15px 20px 25px; (top, right, bottom, left)
-- padding-top, padding-right, padding-bottom, padding-left: Individual control
 
-Our Code:
-padding: 20px; - 20px space inside the border on all sides
+
+
 
 
 12. HEIGHT AND WIDTH
@@ -150,10 +128,6 @@ Syntax:
 - width: 50%; (percentage of parent)
 - min-width: 100px; (minimum width)
 - max-width: 500px; (maximum width)
-
-Our Code:
-width: 300px; - Element is 300 pixels wide
-
 
 13. BOX MODEL
 -------------
